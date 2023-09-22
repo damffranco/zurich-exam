@@ -59,9 +59,22 @@ namespace Zurich.Insurance.Application.UseCases.SaveInsurance
                 insurance.Customer = customer;
             else
             {
-                CustomerData customerExternal = await this._customerDataService.GetCustomerData(customerExternalId);
 
-                insurance.Customer = new Customer { ExternalId = customerExternalId, Nome = "Diego", BirthDate = DateTime.Now, DocId = "39740223842" };
+                try
+                {
+                    CustomerData customerExternal = await this._customerDataService.GetCustomerData(customerExternalId);
+                    insurance.Customer = new Customer
+                    {
+                        ExternalId = customerExternal.CustomerExternalId,
+                        Nome = customerExternal.Name,
+                        BirthDate = customerExternal.BirthDate,
+                        DocId = customerExternal.DocId
+                    };
+                }
+                catch(Exception ex)
+                {
+                    throw new Exception("Cliente não foi encontrado");
+                }
             }
             Vehicle vehicle = await this._vehicleRepository.Find(vehicleBrend, vehicleModel);
 

@@ -1,0 +1,11 @@
+{
+	"customers": [
+		{ "id": "cli01", "name": "Cassio Ramos", "birthDate": "1987-11-06", "docId": "96519003000" },
+		{ "id": "cli02", "name": "Fabio Santos Romeu", "birthDate": "1985-09-16", "docId": "11103806076" },
+		{ "id": "cli03", "name": "Fagner Conserva Lemos", "birthDate": "1989-11-06", "docId": "38619572059" },
+		{ "id": "cli04", "name": "Carlos Gilberto Nascimento Silva", "birthDate": "1987-12-06", "docId": "84948944041" },
+		{ "id": "cli05", "name": "Lucas Verissimo da Silva", "birthDate": "1987-07-07", "docId": "60259083038" },
+		{ "id": "cli06", "name": "Gabriel da Silva Morcardo", "birthDate": "2005-09-28", "docId": "41122771053" },
+		{ "id": "cli07", "name": "Maycon de Andrade Barberan", "birthDate": "1997-07-15", "docId": "96519003000" }
+	]
+}
