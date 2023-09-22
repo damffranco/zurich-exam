@@ -11,6 +11,7 @@ builder.Services.AddSwaggerGen();
 
 builder.Services.AddSQLServer();
 builder.Services.AddUseCases();
+builder.Services.AddCustomerData();
 
 
 var app = builder.Build();

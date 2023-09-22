@@ -1,6 +1,7 @@
 ﻿using Zurich.Insurance.Application.Interfaces;
 using Zurich.Insurance.Domain.Entities;
 using Zurich.Insurance.Domain.Interfaces;
+using Zurich.Insurance.Domain.Model;
 
 namespace Zurich.Insurance.Application.UseCases.SaveInsurance
 {
@@ -9,6 +10,7 @@ namespace Zurich.Insurance.Application.UseCases.SaveInsurance
         private readonly IInsuranceRepository _insuranceRepository;
         private readonly IVehicleRepository _vehicleRepository;
         private readonly ICustomerRepository _customerRepository;
+        private readonly ICustomerData _customerDataService;
         private readonly IUnitOfWork _unitOfWork;
         private IOutputPort _outputPort;
 
@@ -16,12 +18,14 @@ namespace Zurich.Insurance.Application.UseCases.SaveInsurance
             IInsuranceRepository insuranceRepository,
             IVehicleRepository vehicleRepository,
             ICustomerRepository customerRepository,
+            ICustomerData customerDataService,
             IUnitOfWork unitOfWork)
         {
             this._insuranceRepository = insuranceRepository;
             this._vehicleRepository = vehicleRepository;
             this._customerRepository = customerRepository;
             this._unitOfWork = unitOfWork;
+            this._customerDataService = customerDataService;
             this._outputPort = new SaveInsurancePresenter();
         }
 
@@ -38,10 +42,7 @@ namespace Zurich.Insurance.Application.UseCases.SaveInsurance
                 string vehicleBrend,
                 string vehicleModel)
         {
-            /*
-            string externalUserId = this._userService
-                .GetCurrentUserId();
-            */
+
             Domain.Entities.Insurance insurance = new Domain.Entities.Insurance
             {
                 VehiclePrize = vehiclePrize,
@@ -57,8 +58,11 @@ namespace Zurich.Insurance.Application.UseCases.SaveInsurance
             if (customer != null)
                 insurance.Customer = customer;
             else
-                insurance.Customer = new Customer { ExternalId = customerExternalId, Nome = "Diego", BirthDate = DateTime.Now, DocId = "39740223842" };
+            {
+                CustomerData customerExternal = await this._customerDataService.GetCustomerData(customerExternalId);
 
+                insurance.Customer = new Customer { ExternalId = customerExternalId, Nome = "Diego", BirthDate = DateTime.Now, DocId = "39740223842" };
+            }
             Vehicle vehicle = await this._vehicleRepository.Find(vehicleBrend, vehicleModel);
 
             if (vehicle != null)
