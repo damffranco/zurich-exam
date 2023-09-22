@@ -25,7 +25,12 @@
       "ProjectGuid": "0911ca41-f639-4850-9121-78526aebd0b2",
       "DisplayName": "Zurich.Insurance.Application",
       "ColorIndex": 3
+    },
+    "ef0ab577-8099-4b29-831f-c82909557bb0": {
+      "ProjectGuid": "ef0ab577-8099-4b29-831f-c82909557bb0",
+      "DisplayName": "Zurich.Insurance.UnitTests",
+      "ColorIndex": 4
     }
   },
-  "NextColorIndex": 4
+  "NextColorIndex": 5
 }
