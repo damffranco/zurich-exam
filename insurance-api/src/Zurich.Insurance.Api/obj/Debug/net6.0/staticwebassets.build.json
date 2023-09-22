@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "33GdnSg1xm2qMgPi3maF5VFMeNUvnoFzcfJMK/39Kpw=",
+  "Source": "Zurich.Insurance.Api",
+  "BasePath": "_content/Zurich.Insurance.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

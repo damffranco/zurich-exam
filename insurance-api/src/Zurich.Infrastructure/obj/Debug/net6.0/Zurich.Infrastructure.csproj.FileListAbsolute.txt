@@ -1,0 +1,17 @@
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\Zurich.Infrastructure.deps.json
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\Zurich.Infrastructure.runtimeconfig.json
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\Zurich.Infrastructure.dll
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\ref\Zurich.Infrastructure.dll
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\Zurich.Infrastructure.pdb
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.csproj.AssemblyReference.cache
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.AssemblyInfoInputs.cache
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.AssemblyInfo.cs
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.dll
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\ref\Zurich.Infrastructure.dll
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.pdb
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.genruntimeconfig.cache
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\Zurich.Insurance.Domain.dll
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\bin\Debug\net6.0\Zurich.Insurance.Domain.pdb
+C:\Projeto Estudo\zurich\zurich-exam\Zurich.Infrastructure\obj\Debug\net6.0\Zurich.Infrastructure.csproj.CopyComplete

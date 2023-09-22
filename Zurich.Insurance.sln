@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32014.148
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zurich.Insurance.Api", "insurance-api\src\Zurich.Insurance.Api\Zurich.Insurance.Api.csproj", "{55BBED80-5443-4810-91F3-AFEFD87D676F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "insurance-api", "insurance-api", "{5C393F26-FDD5-49C5-97D1-89948F0DEE36}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{19106040-3F97-456E-AE94-EC9C4B1FED56}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5CCF0C95-E1EF-4209-8703-35F54F421C18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zurich.Insurance.Domain", "insurance-api\src\Zurich.Insurance.Domain\Zurich.Insurance.Domain.csproj", "{E142FD8E-A576-436D-A489-1D8C181E0F66}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zurich.Insurance.Infrastructure", "insurance-api\src\Zurich.Infrastructure\Zurich.Insurance.Infrastructure.csproj", "{588F0DD7-4417-423C-9753-7F7093EC17A4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zurich.Insurance.Application", "insurance-api\src\Zurich.Insurance.Application\Zurich.Insurance.Application.csproj", "{0911CA41-F639-4850-9121-78526AEBD0B2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55BBED80-5443-4810-91F3-AFEFD87D676F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55BBED80-5443-4810-91F3-AFEFD87D676F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55BBED80-5443-4810-91F3-AFEFD87D676F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55BBED80-5443-4810-91F3-AFEFD87D676F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E142FD8E-A576-436D-A489-1D8C181E0F66}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E142FD8E-A576-436D-A489-1D8C181E0F66}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E142FD8E-A576-436D-A489-1D8C181E0F66}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E142FD8E-A576-436D-A489-1D8C181E0F66}.Release|Any CPU.Build.0 = Release|Any CPU
+		{588F0DD7-4417-423C-9753-7F7093EC17A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{588F0DD7-4417-423C-9753-7F7093EC17A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{588F0DD7-4417-423C-9753-7F7093EC17A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{588F0DD7-4417-423C-9753-7F7093EC17A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0911CA41-F639-4850-9121-78526AEBD0B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0911CA41-F639-4850-9121-78526AEBD0B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0911CA41-F639-4850-9121-78526AEBD0B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0911CA41-F639-4850-9121-78526AEBD0B2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{55BBED80-5443-4810-91F3-AFEFD87D676F} = {19106040-3F97-456E-AE94-EC9C4B1FED56}
+		{19106040-3F97-456E-AE94-EC9C4B1FED56} = {5C393F26-FDD5-49C5-97D1-89948F0DEE36}
+		{5CCF0C95-E1EF-4209-8703-35F54F421C18} = {5C393F26-FDD5-49C5-97D1-89948F0DEE36}
+		{E142FD8E-A576-436D-A489-1D8C181E0F66} = {19106040-3F97-456E-AE94-EC9C4B1FED56}
+		{588F0DD7-4417-423C-9753-7F7093EC17A4} = {19106040-3F97-456E-AE94-EC9C4B1FED56}
+		{0911CA41-F639-4850-9121-78526AEBD0B2} = {19106040-3F97-456E-AE94-EC9C4B1FED56}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B54F22E-658E-4183-8240-2D280B70DAE6}
+	EndGlobalSection
+EndGlobal

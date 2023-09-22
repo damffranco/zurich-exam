@@ -1,0 +1,15 @@
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\bin\Debug\net6.0\Zurich.Insurance.Application.deps.json
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\bin\Debug\net6.0\Zurich.Insurance.Application.dll
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\bin\Debug\net6.0\ref\Zurich.Insurance.Application.dll
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\bin\Debug\net6.0\Zurich.Insurance.Application.pdb
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\bin\Debug\net6.0\Zurich.Insurance.Domain.dll
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\bin\Debug\net6.0\Zurich.Insurance.Domain.pdb
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.csproj.AssemblyReference.cache
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.AssemblyInfoInputs.cache
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.AssemblyInfo.cs
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.csproj.CoreCompileInputs.cache
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.csproj.CopyComplete
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.dll
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\ref\Zurich.Insurance.Application.dll
+C:\Projeto Estudo\zurich\zurich-exam\insurance-api\src\Zurich.Insurance.Application\obj\Debug\net6.0\Zurich.Insurance.Application.pdb
