@@ -20,8 +20,7 @@
   </ItemGroup>
 	
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Zurich.Infrastructure\Zurich.Insurance.Infrastructure.csproj" />
-    <ProjectReference Include="..\Zurich.Infrastructure\Zurich.Insurance.Infrastructure.csproj" />
+       <ProjectReference Include="..\Zurich.Infrastructure\Zurich.Insurance.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

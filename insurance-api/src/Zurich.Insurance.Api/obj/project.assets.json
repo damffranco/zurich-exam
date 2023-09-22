@@ -4357,9 +4357,6 @@
           "projectReferences": {
             "C:\\Projeto Estudo\\zurich\\zurich-exam\\insurance-api\\src\\Zurich.Infrastructure\\Zurich.Insurance.Infrastructure.csproj": {
               "projectPath": "C:\\Projeto Estudo\\zurich\\zurich-exam\\insurance-api\\src\\Zurich.Infrastructure\\Zurich.Insurance.Infrastructure.csproj"
-            },
-            "C:\\Projeto Estudo\\zurich\\zurich-exam\\Zurich.Infrastructure\\Zurich.Insurance.Infrastructure.csproj": {
-              "projectPath": "C:\\Projeto Estudo\\zurich\\zurich-exam\\Zurich.Infrastructure\\Zurich.Insurance.Infrastructure.csproj"
             }
           }
         }
